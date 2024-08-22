@@ -3,6 +3,12 @@ import { Container } from "../../components/container";
 import userImg from "/public/user.png";
 import { FaShareAlt } from "react-icons/fa";
 import { FavoriteCard } from "./components/favorite";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Meu perfil - DalyGames",
+  description: "Perfil KaiDev",
+}
 
 export default function Profile() {
   return (
